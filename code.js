@@ -321,3 +321,42 @@
 // } else if(password == (alpha && numbers) && (password.length >= 6) ){
 //     console.log("Very strong");
 // }
+
+
+  // Username Validation
+let username = "Tolulope222";
+
+
+if (username === "" || username == null) {
+    console.log("Please enter username");
+} else if (username !== "Tolulope222") {
+    console.log("Incorrect username");
+} else {
+    console.log("Proceed to email!");
+}
+   
+
+//Email validation
+
+let email = prompt("Enter email");
+
+if (email !== "tolulope@gmail.com") {
+    console.log('incorrect email');
+} else {
+    console.log("Email validation successful!");
+}
+
+
+//Password validation
+
+let isPassword = "Tolu-12345";
+
+if (isPassword === "") {
+    console.log("Please enter password");
+} else if (isPassword.length < 5) {
+    console.log('password length must be 5 characters and above!');
+} else if (isPassword !== 'Tolu-12345') {
+    console.log("incorrect pasword!");
+} else {
+    console.log("Login Successful!!");
+}
